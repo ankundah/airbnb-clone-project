@@ -69,4 +69,16 @@ Allows users to leave reviews and ratings for properties. Enhances trust and com
 ### Payment Processing
 Handles secure transactions for bookings. Critical for monetization and user trust.
 
+## API Security
+### Authentication
+Ensures that only authorized users can access certain endpoints. Protects user data and prevents unauthorized actions.
+
+### Authorization
+Controls what actions users can perform based on their roles. Prevents privilege escalation.
+
+### Rate Limiting
+Restricts the number of API calls a user can make in a given time frame. Prevents abuse and DDoS attacks.
+
+### Data Validation
+Ensures that only valid data is processed by the API. Prevents injection attacks and data corruption.
   
