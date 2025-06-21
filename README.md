@@ -53,4 +53,20 @@ Implements and monitors security measures to protect the application and user da
 - **Fields:** `id`, `booking_id`, `amount`, `payment_method`, `status`, `created_at`
 - **Relationships:** A payment belongs to a booking.
 
+## Feature Breakdown
+### User Management
+Allows users to register, login, and manage their profiles. Essential for personalizing the user experience.
+
+### Property Management
+Enables property owners to list, update, and manage their properties. Core to the platform's functionality.
+
+### Booking System
+Facilitates property bookings, including date selection and payment processing. Key to the platform's revenue model.
+
+### Review System
+Allows users to leave reviews and ratings for properties. Enhances trust and community engagement.
+
+### Payment Processing
+Handles secure transactions for bookings. Critical for monetization and user trust.
+
   
