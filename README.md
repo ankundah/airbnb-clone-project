@@ -76,6 +76,17 @@ Ensures that only authorized users can access certain endpoints. Protects user d
 ### Authorization
 Controls what actions users can perform based on their roles. Prevents privilege escalation.
 
+## CI/CD Pipeline
+### What is CI/CD?
+Continuous Integration (CI) and Continuous Deployment (CD) are practices that automate the process of integrating code changes and deploying them to production.
+
+### Why is it important?
+CI/CD pipelines ensure that code changes are tested and deployed quickly and reliably, reducing the risk of errors and improving development efficiency.
+
+### Tools
+- **GitHub Actions:** For automating workflows and CI/CD processes.
+- **Docker:** For containerizing the application and ensuring consistency across environments.
+
 ### Rate Limiting
 Restricts the number of API calls a user can make in a given time frame. Prevents abuse and DDoS attacks.
 
