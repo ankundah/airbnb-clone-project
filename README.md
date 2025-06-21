@@ -32,3 +32,25 @@ Sets up and manages the CI/CD pipeline, ensuring smooth deployment and integrati
 ### Security Engineer
 Implements and monitors security measures to protect the application and user data.
 
+## Database Design
+### Users
+- **Fields:** `id`, `username`, `email`, `password`, `created_at`
+- **Relationships:** A user can have multiple properties and bookings.
+
+### Properties
+- **Fields:** `id`, `title`, `description`, `price`, `location`, `owner_id`
+- **Relationships:** A property belongs to a user and can have multiple bookings and reviews.
+
+### Bookings
+- **Fields:** `id`, `property_id`, `user_id`, `check_in`, `check_out`, `total_price`
+- **Relationships:** A booking belongs to a user and a property.
+
+### Reviews
+- **Fields:** `id`, `property_id`, `user_id`, `rating`, `comment`, `created_at`
+- **Relationships:** A review belongs to a user and a property.
+
+### Payments
+- **Fields:** `id`, `booking_id`, `amount`, `payment_method`, `status`, `created_at`
+- **Relationships:** A payment belongs to a booking.
+
+  
