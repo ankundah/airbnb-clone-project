@@ -19,3 +19,16 @@ A platform for containerizing applications, ensuring consistency across developm
 ### GitHub Actions
 A CI/CD tool for automating workflows, including testing and deployment.
 
+## Team Roles
+### Backend Developer
+Responsible for developing and maintaining the server-side logic, APIs, and database interactions.
+
+### Database Administrator
+Designs, implements, and maintains the database schema and ensures data integrity and performance.
+
+### DevOps Engineer
+Sets up and manages the CI/CD pipeline, ensuring smooth deployment and integration processes.
+
+### Security Engineer
+Implements and monitors security measures to protect the application and user data.
+
